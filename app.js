@@ -14,7 +14,7 @@
   const db = firebase.database();
   coleccionProductos = db.ref().child('productos');
   bodyProductos = $('#bodyProductos').val();
- 
+ console.log("prueba");
  
   // console.log(bodyProductos);
   $('form').submit(function(e){
